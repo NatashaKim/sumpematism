@@ -1,0 +1,225 @@
+:root {
+  --main-color: #FFE0AF;
+  --accent-color: #D23535;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+}
+
+.wrapper {
+  /* background-image: url(../img/picture.jpg); */
+  background-color: #f4e7bb;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.arc, .arc2, .arc3 {
+  border-right: 0.3vw solid transparent;
+  border-left: 0.3vw solid transparent;
+  border-top: 0.3vw solid black;
+  border-bottom: 0.3vw solid transparent;
+  border-radius: 50%;
+}
+
+.arc {
+  width: 35.5vw;
+  height: 12vw;
+  transform: translate(28vw, 30.5vw) rotate(71deg);
+}
+
+.arc2 {
+  width: 22vw;
+  height: 8vw;
+  transform: translate(48vw, 0vw) rotate(51deg);
+}
+
+.arc3 {
+  width: 56vw;
+  height: 22vw;
+  transform: translate(48.5vw, -4vw) rotate(68deg);
+}
+
+.line_circle {
+  width: 66vw;
+  height: 66vw;
+  border: 0.3vw solid black;
+  transform: translate(-31vw, -27vw);
+  border-radius: 50%;
+  }
+
+.circle {
+  display: block;
+  position: absolute;
+  top: 18vw;
+  left: -30.8vw;
+  width: 63vw;
+  height: 63vw;
+  border-radius: 50%;
+  background-color: #eab16c;
+}
+
+  .big_square {
+  display: block;
+  position: absolute;
+  top: 31vw;
+  left: -5vw;
+  width: 24vw;
+  height: 24vw;
+  background-color: #825210;
+  transform: rotate(56deg) skew(3deg);
+}
+
+  .small_square {
+  display: block;
+  position: absolute;
+  top: 38vw;
+  left: 0vw;
+  width: 5vw;
+  height: 7vw;
+  background-color: #f4e7bb;
+  transform: rotate(56deg) skew(9deg);
+}
+
+  .black_rectangle {
+  display: block;
+  position: absolute;
+  top: 9.4vw;
+  left: 25.5vw;
+  width: 3.7vw;
+  height: 38vw;
+  background-color: black;
+  transform: rotate(51deg);
+  }
+
+  .black_rectangle2 {
+  display: block;
+  position: absolute;
+  top: 10.3vw;
+  left: 11.1vw;
+  width: 2.4vw;
+  height: 22vw;
+  background-color: black;
+  transform: rotate(50deg);
+  }
+
+  .black_rectangle3 {
+  display: block;
+  position: absolute;
+  top: 5.8vw;
+  left: 78.5vw;
+  width: 1.5vw;
+  transform: rotate(234deg);
+  border-bottom: 8vw solid black;
+  border-left: 0.7vw solid transparent;
+  border-right: 0.7 solid transparent;
+  }
+
+  .brown_rectangle {
+  display: block;
+  position: absolute;
+  top: 13.8vw;
+  left: 58.1vw;
+  width: 1.5vw;
+  transform: rotate(69.2deg);
+  border-bottom: 36.5vw solid #ce3104;
+  border-left: 0.7vw solid transparent;
+  border-right: 0.7 solid transparent;
+  }
+
+  .red_rectangle {
+  display: block;
+  position: absolute;
+  top: 15.8vw;
+  left: 37vw;
+  width: 18vw;
+  height: 1.8vw;
+  transform: rotate(-39deg);
+  background-color: #df8500;
+  }
+
+.black_line {
+  display: block;
+  position: absolute;
+  top: 26vw;
+  left: 39.5vw;
+  width: 18vw;
+  height: 0.6vw;
+  transform: rotate(-33deg);
+  background-color: black;
+}
+
+.black_line2 {
+  display: block;
+  position: absolute;
+  top: 12.8vw;
+  left: 58.7vw;
+  width: 5vw;
+  height: 0.4vw;
+  transform: rotate(-36deg);
+  background-color: black;
+}
+
+.black_line3 {
+  display: block;
+  position: absolute;
+  top: 16.1vw;
+  left: 61.3vw;
+  width: 6.5vw;
+  height: 0.4vw;
+  transform: rotate(-34deg);
+  background-color: black;
+}
+
+.red_line {
+  display: block;
+  position: absolute;
+  top: 19.6vw;
+  left: 64.3vw;
+  width: 3.1vw;
+  height: 0.7vw;
+  background: #b72201;
+  border-radius: 2vw / 1vw;
+  transform: rotate(-29deg);
+}
+
+.red_line2 {
+  display: block;
+  position: absolute;
+  top: 19.6vw;
+  left: 81.5vw;
+  width: 8.1vw;
+  height: 0.7vw;
+  background: #b72201;
+  transform: rotate(-22deg);
+}
+
+.red_line3 {
+  display: block;
+  position: absolute;
+  top: 29.6vw;
+  left: 91vw;
+  width: 0;
+  height: 0;
+  border-left: 0.7vw solid transparent;
+  border-right: 0.7 solid transparent;
+  border-bottom: 8vw solid #b72201;
+  transform: rotate(66deg);
+}
+
+.red_line4 {
+  display: block;
+  position: absolute;
+  top: 35.6vw;
+  left: 91vw;
+  width: 0;
+  height: 0;
+  border-left: 0.7vw solid transparent;
+  border-right: 0.7 solid transparent;
+  border-bottom: 8vw solid #b72201;
+  transform: rotate(73deg);
+}
