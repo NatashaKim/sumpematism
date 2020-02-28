@@ -12,214 +12,216 @@ body {
 .wrapper {
   /* background-image: url(../img/picture.jpg); */
   background-color: #f4e7bb;
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
   position: relative;
   overflow: hidden;
-  height: 100vh;
+  height: 300vw;
+  width: 100vw;
 }
 
 .arc, .arc2, .arc3 {
-  border-right: 0.3vw solid transparent;
-  border-left: 0.3vw solid transparent;
-  border-top: 0.3vw solid black;
-  border-bottom: 0.3vw solid transparent;
+  border-right: 0.5vw solid transparent;
+  border-left: 0.5vw solid transparent;
+  border-top: 0.5vw solid black;
+  border-bottom: 0.5vw solid transparent;
   border-radius: 50%;
 }
 
 .arc {
-  width: 35.5vw;
-  height: 12vw;
-  transform: translate(28vw, 30.5vw) rotate(71deg);
+  width: 65.5vw;
+  height: 26vw;
+  transform: translate(35vw, 85vw) rotate(-18deg);
 }
 
 .arc2 {
-  width: 22vw;
-  height: 8vw;
-  transform: translate(48vw, 0vw) rotate(51deg);
+  width: 37vw;
+  height: 13vw;
+  transform: translate(11vw, 38.5vw) rotate(-40deg);
 }
 
 .arc3 {
-  width: 56vw;
-  height: 22vw;
-  transform: translate(48.5vw, -4vw) rotate(68deg);
+  width: 106vw;
+  height: 50vw;
+  transform: translate(-0.1vw, -21vw) rotate(-23deg);
 }
 
 .line_circle {
-  width: 66vw;
-  height: 66vw;
-  border: 0.3vw solid black;
-  transform: translate(-31vw, -27vw);
+  width: 115vw;
+  height: 115vw;
+  border: 0.5vw solid black;
+  transform: translate(30vw, 26vw);
   border-radius: 50%;
-  }
+}
 
 .circle {
   display: block;
   position: absolute;
-  top: 18vw;
-  left: -30.8vw;
-  width: 63vw;
-  height: 63vw;
+  top: 121vw;
+  left: 33.2vw;
+  width: 110vw;
+  height: 110vw;
   border-radius: 50%;
   background-color: #eab16c;
+  opacity: 50%;
 }
 
-  .big_square {
+.big_square {
   display: block;
   position: absolute;
-  top: 31vw;
-  left: -5vw;
-  width: 24vw;
-  height: 24vw;
+  top: 147vw;
+  left: 55vw;
+  width: 44vw;
+  height: 41vw;
   background-color: #825210;
-  transform: rotate(56deg) skew(3deg);
+  opacity: 50%;
+  transform: rotate(-34deg) skew(3deg);
 }
 
-  .small_square {
+.small_square {
   display: block;
   position: absolute;
-  top: 38vw;
-  left: 0vw;
-  width: 5vw;
-  height: 7vw;
+  top: 169vw;
+  left: 71vw;
+  width: 9vw;
+  height: 12vw;
   background-color: #f4e7bb;
-  transform: rotate(56deg) skew(9deg);
+  transform: rotate(-34deg) skew(9deg);
 }
 
-  .black_rectangle {
+.black_rectangle {
   display: block;
   position: absolute;
-  top: 9.4vw;
-  left: 25.5vw;
-  width: 3.7vw;
-  height: 38vw;
+  top: 96.4vw;
+  left: 49.5vw;
+  width: 6.7vw;
+  height: 70vw;
   background-color: black;
-  transform: rotate(51deg);
-  }
-
-  .black_rectangle2 {
-  display: block;
-  position: absolute;
-  top: 10.3vw;
-  left: 11.1vw;
-  width: 2.4vw;
-  height: 22vw;
-  background-color: black;
-  transform: rotate(50deg);
-  }
-
-  .black_rectangle3 {
-  display: block;
-  position: absolute;
-  top: 5.8vw;
-  left: 78.5vw;
-  width: 1.5vw;
-  transform: rotate(234deg);
-  border-bottom: 8vw solid black;
-  border-left: 0.7vw solid transparent;
-  border-right: 0.7 solid transparent;
-  }
-
-  .brown_rectangle {
-  display: block;
-  position: absolute;
-  top: 13.8vw;
-  left: 58.1vw;
-  width: 1.5vw;
-  transform: rotate(69.2deg);
-  border-bottom: 36.5vw solid #ce3104;
-  border-left: 0.7vw solid transparent;
-  border-right: 0.7 solid transparent;
-  }
-
-  .red_rectangle {
-  display: block;
-  position: absolute;
-  top: 15.8vw;
-  left: 37vw;
-  width: 18vw;
-  height: 1.8vw;
   transform: rotate(-39deg);
+}
+
+.black_rectangle2 {
+  display: block;
+  position: absolute;
+  top: 138.3vw;
+  left: 37.3vw;
+  width: 4.4vw;
+  height: 39vw;
+  background-color: black;
+  transform: rotate(-37deg);
+}
+
+.black_rectangle3 {
+  display: block;
+  position: absolute;
+  top: 27.8vw;
+  left: 15.5vw;
+  width: 3.5vw;
+  transform: rotate(144deg);
+  border-bottom: 14vw solid black;
+  border-left: 0.7vw solid transparent;
+}
+
+.brown_rectangle {
+  display: block;
+  position: absolute;
+  top: 39.8vw;
+  left: 56.5vw;
+  width: 3.5vw;
+  transform: rotate(-20.8deg);
+  border-bottom: 65.5vw solid #ce3104;
+  border-left: 0.7vw solid transparent;
+}
+
+.red_rectangle {
+  display: block;
+  position: absolute;
+  top: 93.8vw;
+  left: 14.2vw;
+  width: 33vw;
+  height: 3.8vw;
+  transform: rotate(-129deg);
   background-color: #df8500;
-  }
+}
 
 .black_line {
   display: block;
   position: absolute;
-  top: 26vw;
-  left: 39.5vw;
-  width: 18vw;
+  top: 92vw;
+  left: 32.5vw;
+  width: 32vw;
   height: 0.6vw;
-  transform: rotate(-33deg);
+  transform: rotate(-123deg);
   background-color: black;
 }
 
 .black_line2 {
   display: block;
   position: absolute;
-  top: 12.8vw;
-  left: 58.7vw;
-  width: 5vw;
-  height: 0.4vw;
-  transform: rotate(-36deg);
+  top: 68.5vw;
+  left: 19.7vw;
+  width: 9vw;
+  height: 0.7vw;
+  transform: rotate(-126deg);
   background-color: black;
 }
 
 .black_line3 {
   display: block;
   position: absolute;
-  top: 16.1vw;
-  left: 61.3vw;
-  width: 6.5vw;
-  height: 0.4vw;
-  transform: rotate(-34deg);
+  top: 62.1vw;
+  left: 23.8vw;
+  width: 11.7vw;
+  height: 0.7vw;
+  transform: rotate(-124deg);
   background-color: black;
 }
 
 .red_line {
   display: block;
   position: absolute;
-  top: 19.6vw;
-  left: 64.3vw;
-  width: 3.1vw;
-  height: 0.7vw;
+  top: 59.2vw;
+  left: 34.1vw;
+  width: 5.1vw;
+  height: 1.8vw;
   background: #b72201;
   border-radius: 2vw / 1vw;
-  transform: rotate(-29deg);
+  transform: rotate(-119deg);
 }
 
 .red_line2 {
   display: block;
   position: absolute;
-  top: 19.6vw;
-  left: 81.5vw;
-  width: 8.1vw;
-  height: 0.7vw;
+  top: 23.6vw;
+  left: 28.5vw;
+  width: 15.1vw;
+  height: 1.4vw;
   background: #b72201;
-  transform: rotate(-22deg);
+  transform: rotate(-112deg);
 }
 
 .red_line3 {
   display: block;
   position: absolute;
-  top: 29.6vw;
-  left: 91vw;
+  top: 6.4vw;
+  left: 60.3vw;
   width: 0;
   height: 0;
-  border-left: 0.7vw solid transparent;
+  border-left: 1.8vw solid transparent;
   border-right: 0.7 solid transparent;
-  border-bottom: 8vw solid #b72201;
-  transform: rotate(66deg);
+  border-bottom: 15vw solid #b72201;
+  transform: rotate(-24deg);
 }
 
 .red_line4 {
   display: block;
   position: absolute;
-  top: 35.6vw;
-  left: 91vw;
+  top: 7.6vw;
+  left: 71.5vw;
   width: 0;
   height: 0;
-  border-left: 0.7vw solid transparent;
+  border-left: 1.8vw solid transparent;
   border-right: 0.7 solid transparent;
-  border-bottom: 8vw solid #b72201;
-  transform: rotate(73deg);
+  border-bottom: 13vw solid #b72201;
+  transform: rotate(-17deg);
 }
